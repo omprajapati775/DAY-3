@@ -1,0 +1,57 @@
+
+<html>
+<head>
+<title>calculater</title>
+</head>
+<script type="text/javascript">
+ 
+  function add1()
+  {
+    const a=parseInt(txtA.value);
+    const b=parseInt(txtB.value);
+    txtAns.value=a+b;
+    alert(txtAns.value);
+  }
+
+  function add2()
+  {
+    const a=parseInt(txtA.value);
+    const b=parseInt(txtB.value);
+    txtAns.value=a-b;
+    alert(txtAns.value);
+  }
+
+  function add3()
+  {
+    const a=parseInt(txtA.value);
+    const b=parseInt(txtB.value);
+    txtAns.value=a*b;
+    alert(txtAns.value);
+  }
+
+  function add4()
+  {
+    const a=parseInt(txtA.value);
+    const b=parseInt(txtB.value);
+    txtAns.value=a/b;
+    alert(txtAns.value);
+  }
+</script>
+<body bgcolor="GREY">
+<div align="center">
+
+   Enter value of A :<input type="text" value="0" width="200px" id="txtA" style="color:red;" /><br>
+   enter value of B: <input type="text" value="0" width="200px" id="txtB" style="color:red;" /><br>
+    Ans:<input type="text" value="0" width="200px" id="txtAns" style="color:red;" readonly/><br>
+</div>
+   
+<div align="center">
+   <input type="button"  onclick="add1()"; value="+"  style="background-color:rgb(3, 130, 204);" />
+   <input type="button"  onclick="add2()"; value="-"  style="background-color:rgb(3, 130, 204);" />
+   <input type="button"  onclick="add3()"; value="*"  style="background-color:rgb(3, 130, 204);" />
+   <input type="button"  onclick="add4()"; value="/"  style="background-color:rgb(3, 130, 204);" />
+   <input type="button"  onclick="add5()"; value="c"  style="background-color:rgb(3, 130, 204);" />
+  </div>
+
+</body>
+</html>
